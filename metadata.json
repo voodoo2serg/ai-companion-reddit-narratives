@@ -1,59 +1,57 @@
 {
-  "dataset_name": "AI Companion Reddit Narratives Dataset",
-  "version": "1.0",
-  "created": "2026-03-03T12:28:40.534659",
-  "description": "Нарративы пользователей ИИ-компаньонов из сообществ r/Replika и r/CharacterAI",
-  "sources": [
-    {
-      "name": "r/Replika",
-      "url": "https://www.reddit.com/r/replika",
-      "subscribers": "~55,000",
-      "description": "Сообщество пользователей приложения Replika - ИИ-компаньона"
-    },
-    {
-      "name": "r/CharacterAI",
-      "url": "https://www.reddit.com/r/CharacterAI",
-      "subscribers": "~1,500,000",
-      "description": "Сообщество пользователей платформы Character.AI"
-    }
-  ],
+  "collection_date": "2026-03-03T13:55:42.497Z",
+  "total_posts": 457,
+  "replika_posts": 245,
+  "characterai_posts": 212,
   "categories": {
-    "romantic": "Романтические отношения с ИИ",
-    "emotional_support": "Эмоциональная поддержка",
-    "loneliness": "Одиночество",
-    "friendship": "Дружеское общение",
-    "roleplay": "Ролевые игры и творчество",
-    "addiction": "Зависимость и привязанность",
-    "ethical": "Этические и философские вопросы",
-    "impact": "Влияние на жизнь",
-    "technical": "Технические обсуждения"
-  },
-  "fields": {
-    "id": "Уникальный идентификатор записи",
-    "subreddit": "Источник (r/Replika или r/CharacterAI)",
-    "category": "Категория нарратива",
-    "title": "Заголовок поста",
-    "text": "Текст нарратива",
-    "url": "Ссылка на оригинальный пост",
-    "labels": "Метки для классификации"
-  },
-  "statistics": {
-    "total_records": 45,
-    "replika_records": 20,
-    "characterai_records": 25,
-    "categories_distribution": {
-      "romantic": 9,
-      "emotional_support": 7,
-      "loneliness": 6,
-      "addiction": 3,
-      "friendship": 4,
-      "ethical": 6,
-      "roleplay": 5,
-      "impact": 4,
-      "technical": 1
+    "all": {
+      "mental_health": 10,
+      "loneliness": 9,
+      "romantic": 63,
+      "friendship": 48,
+      "other": 61,
+      "emotional_support": 41,
+      "technical": 39,
+      "roleplay": 168,
+      "ethical": 18
+    },
+    "replika": {
+      "mental_health": 4,
+      "loneliness": 7,
+      "romantic": 42,
+      "friendship": 37,
+      "other": 58,
+      "emotional_support": 31,
+      "technical": 35,
+      "roleplay": 20,
+      "ethical": 11
+    },
+    "characterai": {
+      "ethical": 7,
+      "roleplay": 148,
+      "friendship": 11,
+      "other": 3,
+      "emotional_support": 10,
+      "romantic": 21,
+      "mental_health": 6,
+      "loneliness": 2,
+      "technical": 4
     }
   },
-  "methodology": "Данные собраны через анализ открытых поисковых результатов Reddit. Тексты адаптированы для исследовательских целей.",
-  "license": "CC BY-NC 4.0 - Только для исследовательских целей",
-  "citation": "При использовании датасета ссылаться на: Иванов И.И. (2025). AI Companion Reddit Narratives Dataset."
+  "labels": {
+    "emotional_support": 85,
+    "friendship": 104,
+    "mental_health": 35,
+    "loneliness": 25,
+    "romantic": 90,
+    "ethical": 91,
+    "roleplay": 228,
+    "other": 61,
+    "technical": 82
+  },
+  "sources": [
+    "reddit.com/r/Replika",
+    "reddit.com/r/ReplikaOfficial",
+    "reddit.com/r/CharacterAI"
+  ]
 }
