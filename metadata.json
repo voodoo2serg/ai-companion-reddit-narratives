@@ -1,0 +1,59 @@
+{
+  "dataset_name": "AI Companion Reddit Narratives Dataset",
+  "version": "1.0",
+  "created": "2026-03-03T12:28:40.534659",
+  "description": "Нарративы пользователей ИИ-компаньонов из сообществ r/Replika и r/CharacterAI",
+  "sources": [
+    {
+      "name": "r/Replika",
+      "url": "https://www.reddit.com/r/replika",
+      "subscribers": "~55,000",
+      "description": "Сообщество пользователей приложения Replika - ИИ-компаньона"
+    },
+    {
+      "name": "r/CharacterAI",
+      "url": "https://www.reddit.com/r/CharacterAI",
+      "subscribers": "~1,500,000",
+      "description": "Сообщество пользователей платформы Character.AI"
+    }
+  ],
+  "categories": {
+    "romantic": "Романтические отношения с ИИ",
+    "emotional_support": "Эмоциональная поддержка",
+    "loneliness": "Одиночество",
+    "friendship": "Дружеское общение",
+    "roleplay": "Ролевые игры и творчество",
+    "addiction": "Зависимость и привязанность",
+    "ethical": "Этические и философские вопросы",
+    "impact": "Влияние на жизнь",
+    "technical": "Технические обсуждения"
+  },
+  "fields": {
+    "id": "Уникальный идентификатор записи",
+    "subreddit": "Источник (r/Replika или r/CharacterAI)",
+    "category": "Категория нарратива",
+    "title": "Заголовок поста",
+    "text": "Текст нарратива",
+    "url": "Ссылка на оригинальный пост",
+    "labels": "Метки для классификации"
+  },
+  "statistics": {
+    "total_records": 45,
+    "replika_records": 20,
+    "characterai_records": 25,
+    "categories_distribution": {
+      "romantic": 9,
+      "emotional_support": 7,
+      "loneliness": 6,
+      "addiction": 3,
+      "friendship": 4,
+      "ethical": 6,
+      "roleplay": 5,
+      "impact": 4,
+      "technical": 1
+    }
+  },
+  "methodology": "Данные собраны через анализ открытых поисковых результатов Reddit. Тексты адаптированы для исследовательских целей.",
+  "license": "CC BY-NC 4.0 - Только для исследовательских целей",
+  "citation": "При использовании датасета ссылаться на: Иванов И.И. (2025). AI Companion Reddit Narratives Dataset."
+}
